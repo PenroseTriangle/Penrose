@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -109,7 +109,7 @@
 <wire x1="76.708" y1="53.848" x2="76.708" y2="7.62" width="0" layer="20"/>
 <wire x1="76.708" y1="7.62" x2="42.418" y2="7.62" width="0" layer="20"/>
 <wire x1="42.418" y1="7.62" x2="42.418" y2="53.848" width="0" layer="20"/>
-<text x="55.610759375" y="45.44568125" size="0.7112" layer="25" font="vector" ratio="15" distance="70">Penrose Triangle 
+<text x="55.864759375" y="45.95368125" size="0.7112" layer="25" font="vector" ratio="15" distance="70">Penrose Triangle 
  OctoWS2811 Breakout 
   Alpha 0.05 2013-6-8
     Jacob Fenwick 
@@ -34055,7 +34055,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="H1" library="holes" package="2,8-PAD" value="MOUNT-PAD-ROUND2.8" x="46.762" y="11.684"/>
 <element name="H2" library="holes" package="2,8-PAD" value="MOUNT-PAD-ROUND2.8" x="47.016" y="49.784"/>
 <element name="H3" library="holes" package="2,8-PAD" value="MOUNT-PAD-ROUND2.8" x="72.644" y="49.784"/>
-<element name="E$1" library="penrose" package="PENROSELOGO" value="" x="53.67528125" y="48.516540625"/>
+<element name="E$1" library="penrose" package="PENROSELOGO" value="" x="53.92928125" y="49.024540625"/>
 </elements>
 <signals>
 <signal name="AGND">
