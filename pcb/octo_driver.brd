@@ -103,8 +103,8 @@
 </layers>
 <board>
 <plain>
-<text x="44.69891875" y="17.018" size="1.016" layer="25" font="fixed" distance="40" rot="R90">Vs 1  2  3  4  5  6  7  8  </text>
-<text x="45.280578125" y="40.101521875" size="2.54" layer="25" rot="R90">+ -</text>
+<text x="44.69891875" y="14.986" size="1.016" layer="25" font="fixed" distance="40" rot="R90">Vsync</text>
+<text x="45.280578125" y="40.101521875" size="2.54" layer="25" rot="R90">+</text>
 <wire x1="42.418" y1="53.848" x2="76.708" y2="53.848" width="0" layer="20"/>
 <wire x1="76.708" y1="53.848" x2="76.708" y2="7.62" width="0" layer="20"/>
 <wire x1="76.708" y1="7.62" x2="42.418" y2="7.62" width="0" layer="20"/>
@@ -115,6 +115,15 @@
     Jacob Fenwick 
      Damon Hyde
       Michael Dewberry</text>
+<text x="44.69891875" y="20.066" size="1.016" layer="25" font="fixed" distance="40" rot="R90">1</text>
+<text x="44.69891875" y="22.606" size="1.016" layer="25" font="fixed" distance="40" rot="R90">2</text>
+<text x="44.69891875" y="25.146" size="1.016" layer="25" font="fixed" distance="40" rot="R90">3</text>
+<text x="44.69891875" y="27.686" size="1.016" layer="25" font="fixed" distance="40" rot="R90">4</text>
+<text x="44.69891875" y="30.226" size="1.016" layer="25" font="fixed" distance="40" rot="R90">5</text>
+<text x="44.69891875" y="32.512" size="1.016" layer="25" font="fixed" distance="40" rot="R90">6</text>
+<text x="44.69891875" y="35.306" size="1.016" layer="25" font="fixed" distance="40" rot="R90">7</text>
+<text x="44.69891875" y="37.846" size="1.016" layer="25" font="fixed" distance="40" rot="R90">8</text>
+<text x="45.280578125" y="43.149521875" size="2.54" layer="25" rot="R90">-</text>
 </plain>
 <libraries>
 <library name="Teensy3.0">
