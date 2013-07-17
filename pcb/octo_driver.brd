@@ -3632,6 +3632,24 @@ W = angled&lt;p&gt;
 </package>
 </packages>
 </library>
+<library name="testpad">
+<description>&lt;b&gt;Test Pins/Pads&lt;/b&gt;&lt;p&gt;
+Cream on SMD OFF.&lt;br&gt;
+new: Attribute TP_SIGNAL_NAME&lt;br&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="B2,54">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
+<wire x1="0" y1="-0.635" x2="0" y2="0.635" width="0.0024" layer="37"/>
+<circle x="0" y="0" radius="0.635" width="0.254" layer="37"/>
+<smd name="TP" x="0" y="0" dx="2.54" dy="2.54" layer="1" roundness="100" cream="no"/>
+<text x="-1.27" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-1.397" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="-3.175" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3889,6 +3907,9 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="U$1" library="penrose" package="PENROSELOGO_LOWDPI" value="" x="59.436" y="69.85"/>
 <element name="U$2" library="penrose" package="PENROSELOGO_1.75IN" value="" x="44.196" y="49.276"/>
+<element name="TP1" library="testpad" package="B2,54" value="PTR1B2,54" x="46.228" y="31.496">
+<attribute name="TP_SIGNAL_NAME" value="" x="46.228" y="31.496" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="AGND">
@@ -3922,6 +3943,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U1" pad="2"/>
 <contactref element="C2" pad="1"/>
 <contactref element="C1" pad="2"/>
+<contactref element="TP1" pad="TP"/>
 </signal>
 <signal name="N$16">
 <contactref element="RLED1" pad="2"/>
