@@ -108,8 +108,8 @@
 <wire x1="76.708" y1="53.848" x2="76.708" y2="7.62" width="0" layer="20"/>
 <wire x1="76.708" y1="7.62" x2="42.418" y2="7.62" width="0" layer="20"/>
 <wire x1="42.418" y1="7.62" x2="42.418" y2="53.848" width="0" layer="20"/>
-<text x="49.895759375" y="46.46168125" size="0.7112" layer="25" font="vector" ratio="15" distance="60">The Penrose Triangle 
- OctoWS2811 Breakout 
+<text x="49.387759375" y="46.46168125" size="0.7112" layer="25" font="vector" ratio="15" distance="60">The Penrose Triangle 
+ OctoWS2811 ThroughHole
   Beta 01 2013-7-17
    Jacob Fenwick 
    Damon Hyde
@@ -3834,7 +3834,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="E$1" library="penrose" package="PENROSELOGO_LOWDPI" value="" x="66.04" y="48.006"/>
 <element name="E$2" library="penrose" package="PENROSELOGO_1.75IN" value="" x="50.8" y="27.432"/>
 <element name="C1" library="rcl" package="C025-024X044" value="1uF" x="59.69" y="12.446" smashed="yes">
-<attribute name="VALUE" x="57.912" y="9.779" size="1.27" layer="27" ratio="10"/>
+<attribute name="VALUE" x="62.23" y="11.811" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C2" library="rcl" package="C025-024X044" value="1uF" x="50.8" y="43.688" smashed="yes" rot="R180">
 <attribute name="VALUE" x="52.07" y="42.291" size="1.27" layer="27" ratio="10" rot="R180"/>
