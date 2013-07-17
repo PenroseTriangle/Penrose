@@ -7385,14 +7385,14 @@ W = angled&lt;p&gt;
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH" value=" "/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="RLED1" library="rcl" deviceset="R-US_" device="0207/2V" value="220"/>
-<part name="RLED8" library="rcl" deviceset="R-US_" device="0207/2V" value="220"/>
-<part name="RLED9" library="rcl" deviceset="R-US_" device="0207/2V" value="220"/>
-<part name="RLED10" library="rcl" deviceset="R-US_" device="0207/2V" value="220"/>
-<part name="RLED11" library="rcl" deviceset="R-US_" device="0207/2V" value="220"/>
-<part name="RLED12" library="rcl" deviceset="R-US_" device="0207/2V" value="220"/>
-<part name="RLED13" library="rcl" deviceset="R-US_" device="0207/2V" value="220"/>
-<part name="RLED14" library="rcl" deviceset="R-US_" device="0207/2V" value="220"/>
+<part name="RLED1" library="rcl" deviceset="R-US_" device="R0805" value="220"/>
+<part name="RLED8" library="rcl" deviceset="R-US_" device="R0805" value="220"/>
+<part name="RLED9" library="rcl" deviceset="R-US_" device="R0805" value="220"/>
+<part name="RLED10" library="rcl" deviceset="R-US_" device="R0805" value="220"/>
+<part name="RLED11" library="rcl" deviceset="R-US_" device="R0805" value="220"/>
+<part name="RLED12" library="rcl" deviceset="R-US_" device="R0805" value="220"/>
+<part name="RLED13" library="rcl" deviceset="R-US_" device="R0805" value="220"/>
+<part name="RLED14" library="rcl" deviceset="R-US_" device="R0805" value="220"/>
 <part name="H1" library="holes" deviceset="MOUNT-PAD-ROUND" device="2.8"/>
 <part name="H2" library="holes" deviceset="MOUNT-PAD-ROUND" device="2.8"/>
 <part name="H3" library="holes" deviceset="MOUNT-PAD-ROUND" device="2.8"/>
