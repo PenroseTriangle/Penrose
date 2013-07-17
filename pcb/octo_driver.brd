@@ -3903,7 +3903,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="45.974" y1="38.354" x2="45.974" y2="35.052" width="0.6096" layer="16"/>
 <wire x1="45.974" y1="35.052" x2="52.324" y2="31.496" width="0.6096" layer="16"/>
 <contactref element="SV1" pad="1"/>
-<wire x1="39.878" y1="40.386" x2="43.942" y2="40.386" width="0.6096" layer="16"/>
+<wire x1="39.878" y1="40.386" x2="43.942" y2="40.386" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="GND">
 <contactref element="TEENSY3.0" pad="GND"/>

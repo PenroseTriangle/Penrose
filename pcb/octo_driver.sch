@@ -7398,26 +7398,26 @@ W = angled&lt;p&gt;
 <instance part="JP1" gate="G$1" x="33.02" y="154.94"/>
 <instance part="GND3" gate="1" x="53.34" y="152.4"/>
 <instance part="RLED1" gate="G$1" x="5.08" y="48.26" smashed="yes"/>
-<instance part="RLED8" gate="G$1" x="5.08" y="43.18" smashed="yes">
-<attribute name="VALUE" x="1.27" y="39.878" size="1.778" layer="96"/>
+<instance part="RLED8" gate="G$1" x="5.08" y="43.18" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.89" y="46.482" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="RLED9" gate="G$1" x="5.08" y="38.1" smashed="yes">
 <attribute name="VALUE" x="1.27" y="34.798" size="1.778" layer="96"/>
 </instance>
-<instance part="RLED10" gate="G$1" x="5.08" y="33.02" smashed="yes">
-<attribute name="VALUE" x="1.27" y="29.718" size="1.778" layer="96"/>
+<instance part="RLED10" gate="G$1" x="5.08" y="33.02" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.89" y="36.322" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="RLED11" gate="G$1" x="5.08" y="27.94" smashed="yes">
 <attribute name="VALUE" x="1.27" y="24.638" size="1.778" layer="96"/>
 </instance>
-<instance part="RLED12" gate="G$1" x="5.08" y="22.86" smashed="yes">
-<attribute name="VALUE" x="1.27" y="19.558" size="1.778" layer="96"/>
+<instance part="RLED12" gate="G$1" x="5.08" y="22.86" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.89" y="26.162" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="RLED13" gate="G$1" x="5.08" y="17.78" smashed="yes">
 <attribute name="VALUE" x="1.27" y="14.478" size="1.778" layer="96"/>
 </instance>
-<instance part="RLED14" gate="G$1" x="5.08" y="12.7" smashed="yes">
-<attribute name="VALUE" x="1.27" y="9.398" size="1.778" layer="96"/>
+<instance part="RLED14" gate="G$1" x="5.08" y="12.7" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.89" y="16.002" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="H1" gate="G$1" x="101.6" y="152.4"/>
 <instance part="H2" gate="G$1" x="101.6" y="162.56"/>
@@ -7438,9 +7438,11 @@ W = angled&lt;p&gt;
 <wire x1="76.2" y1="12.7" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
 <label x="58.42" y="12.7" size="1.778" layer="95"/>
 <wire x1="55.88" y1="12.7" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="55.88" x2="-17.78" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="55.88" x2="-33.02" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="55.88" x2="-33.02" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="1" pin="1"/>
-<wire x1="-17.78" y1="55.88" x2="-17.78" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="17.78" x2="-17.78" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="17.78" x2="-17.78" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -7506,7 +7508,7 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="74HCT245" gate="A" pin="B7"/>
 <pinref part="RLED8" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="35.56" x2="0" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="35.56" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -7520,7 +7522,7 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="74HCT245" gate="A" pin="B5"/>
 <pinref part="RLED10" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="30.48" x2="0" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="30.48" x2="10.16" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -7534,7 +7536,7 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="74HCT245" gate="A" pin="B3"/>
 <pinref part="RLED12" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="25.4" x2="0" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="25.4" x2="10.16" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -7548,7 +7550,7 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="74HCT245" gate="A" pin="B1"/>
 <pinref part="RLED14" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="20.32" x2="0" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="20.32" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED7_3.3" class="0">
@@ -7582,7 +7584,7 @@ W = angled&lt;p&gt;
 <pinref part="SV1" gate="1" pin="2"/>
 <wire x1="-17.78" y1="25.4" x2="-15.24" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="22.86" x2="-15.24" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED2_3.3" class="0">
@@ -7672,7 +7674,7 @@ W = angled&lt;p&gt;
 <pinref part="SV1" gate="1" pin="4"/>
 <wire x1="-17.78" y1="30.48" x2="-10.16" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="27.94" x2="-10.16" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="22.86" x2="10.16" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED4" class="0">
@@ -7690,7 +7692,7 @@ W = angled&lt;p&gt;
 <pinref part="RLED10" gate="G$1" pin="2"/>
 <label x="-5.08" y="33.02" size="1.778" layer="95"/>
 <pinref part="SV1" gate="1" pin="6"/>
-<wire x1="10.16" y1="33.02" x2="-17.78" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="0" y1="33.02" x2="-17.78" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED6" class="0">
@@ -7710,7 +7712,7 @@ W = angled&lt;p&gt;
 <pinref part="SV1" gate="1" pin="8"/>
 <wire x1="-17.78" y1="40.64" x2="-12.7" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="38.1" x2="-12.7" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="43.18" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="43.18" x2="0" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED8" class="0">
